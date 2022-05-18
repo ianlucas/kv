@@ -4,7 +4,7 @@ A simple Source's KeyValue format parser.
 
 ## API
 
-### `KV.parse(input: string): array`
+### `KV.parse(input: string): KeyValue[]`
 
 Returns an array of KeyValue instances.
 
