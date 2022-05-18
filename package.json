@@ -1,0 +1,14 @@
+{
+  "name": "kv",
+  "version": "1.0.0",
+  "description": "A simple Source's KeyValue format parser.",
+  "main": "src/KV.js",
+  "scripts": {
+    "build": "pegjs src/grammar.pegjs"
+  },
+  "author": "Ian Lucas",
+  "license": "MIT",
+  "devDependencies": {
+    "pegjs": "^0.10.0"
+  }
+}
