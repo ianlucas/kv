@@ -27,7 +27,9 @@ const walk = pair => {
 
 const KV = {
   parse(input) {
-    const output = grammar.parse(input)
+    const output = grammar.parse(
+      input.replace(/\/\/[^\n]*/g, '')
+    )
     return output.map(walk)
   }
 }
